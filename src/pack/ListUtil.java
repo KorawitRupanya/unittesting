@@ -27,4 +27,10 @@ public class ListUtil {
     	}
 		return tmp.size() ;	
     }
+    
+  //TODO write good method Javadoc
+    public static <T extends Comparable<? super T>> int binarySearch(T[] array, T element) {
+    	
+    }
+
 }
