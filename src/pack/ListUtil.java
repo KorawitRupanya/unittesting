@@ -3,6 +3,11 @@ package pack;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *  Count the number of distinct elements in a list.
+ * @author Korawit Rupanya
+ *
+ */
 public class ListUtil {
 	 /**
      * Count the number of distinct elements in a list.
@@ -13,7 +18,7 @@ public class ListUtil {
      * @return the number of distinct elements in list
      */
     public static int countUnique(List<?> list) {
-    	List<Object>tmp = new ArrayList<>();
+    	List<Object> tmp = new ArrayList<>();
     	
     	for(int i = 0 ; i <list.size();i++) {
     		if(!tmp.contains(list.get(i))) {
