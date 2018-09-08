@@ -12,7 +12,7 @@ public class ListUtil {
 	 /**
      * Count the number of distinct elements in a list.
      * The list may be empty but not null.
-     * TODO: can the list contain null values? Does null count as a unique element?
+     * The list can contain null values and they will count as a unique element.
      *
      * @param list a list of elements
      * @return the number of distinct elements in list
@@ -30,7 +30,7 @@ public class ListUtil {
     
   //TODO write good method Javadoc
     public static <T extends Comparable<? super T>> int binarySearch(T[] array, T element) {
-    	
+    	return 0;
     }
 
 }
