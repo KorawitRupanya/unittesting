@@ -37,7 +37,7 @@ public class ListUtil {
 	 * Repeatedly check until the value is found or the interval is empty.
 	 * 
 	 * @param array an collection of element
-	 * @param element what to search
+	 * @param element that want to search
 	 * @return index of the matching element or -1 if the search element is not in the array.
 	 */
 	public static <T extends Comparable<? super T>> int binarySearch(T[] array, T element) {
