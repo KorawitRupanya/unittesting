@@ -9,7 +9,7 @@
 | TypeDifferences   | return 7     |
 | AddNullI          | return 1    |
 
-## Tests for countUnique
+## Tests for BinarySearch
 
 | Test case              |  Expected Result    |
 |------------------------|---------------------|
