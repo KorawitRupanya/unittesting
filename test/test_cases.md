@@ -16,5 +16,5 @@
 | testNormalSearch         |  return number which is position of the element |
 | testImpossibleSearch       |  return  -1           |
 | testSearchEmpty |  return -1     |
-|testNullPointer | return NullPointerException  |
+|testNullPointer | NullPointerException  |
 |testSearchNul  | IllegalArgumentException    |
